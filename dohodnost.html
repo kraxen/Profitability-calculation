@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Доходность</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="form">
+		<p>Начальный капитал</p>
+		<input type="text" id="start1" placeholder="10000">
+		<p>Ежемесячные пополнения</p>
+		<input type="text" id="pop1" placeholder="5000">
+		<p>Ежедневный коэффицент<br>(1% = 1.01)</p>
+		<input type="tex" id="caf1" placeholder="1.01">
+		<p>Кол-во месяцев</p>
+		<input type="text" id="mounth1" placeholder="12"><br><br>
+		<button id="btn" onclick="my_func()">Посчитать</button>
+	</div>
+	<div id="result_block">
+		<p>Ваш капитал будет равен:</p>
+		<p id="result"></p>
+	</div>
+</body>
+<script src="js.js" charset="utf-8"></script>
+	
+</script>
+</html>
